@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Rubik+One');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+	/*text-transform: uppercase;*/
+	font-size: 1em;
+	font-weight: normal;
+	color: 240,240,240; 
+	/*background-image: url("../images/miners.jpg");
+	background-size: cover;*/
+	padding: 15px
+}
+
+header {
+	font-family:'Rubik One', serif;
+	text-transform: uppercase;
+	background-color: #000000;
+	padding: 20px;
+	font-size: 2em
+}
+
+h1 {
+	text-decoration: underline;
+	color: white;
+	font-size: 3em
+	font-weight: bold;
+}
+
+h2{
+	color: 240,240,240;
+	font-family:'Rubik One', serif;
+	padding: 20px;
+	text-decoration: underline;
+	font-size: 2em;
+	font-weight: black;
+}
+
+h3{
+	font-weight: normal;
+	font-size: 24px;
+	margin-top: 12px;
+
+}
+
+h4{
+	padding-bottom: 20px
+}
+
+footer{ 
+	background-color: #000000;
+	color: white;
+	padding: 20px;
+}
+
+
+
+}
+
+nav a {
+	font-size: 20px
+	color: #CCCCCC;
+	font-style: italic;
+	margin-right: 10px
+}
+
+p{
+	text-align: center;
+	font-size: .5em;
+	color: #999999;
+	width: 25%
+	margin-left: 400px;
+
+
+}
+
+a{
+	color: grey;
+	padding: 15px
+}
+
+img {
+	width: 20%;
+}
