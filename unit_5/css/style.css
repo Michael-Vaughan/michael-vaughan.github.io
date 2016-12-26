@@ -1,0 +1,40 @@
+#wrapper {
+    background-color: grey;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+/*slogan and st001 are ID's of article*/
+.catalog {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+#slogan {
+    background-color: #EEEEEE;
+    border: 1px black solid;
+    padding: 20px;
+}
+#mailing-list {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
