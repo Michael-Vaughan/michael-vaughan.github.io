@@ -1,0 +1,51 @@
+h1 {
+	font-family: helvetica, sans-serif;
+	font-size: 2em
+	font-weight: bold;
+	float: left;
+	background-color: gray;
+	margin-right: 300px;}
+
+nav a {
+	display: block;
+	background-color: orange;
+	float: left;
+	padding: 40px;
+}
+
+a:hover {
+  background-color: #aaaaaa;
+}
+
+.Article{
+	/*clear: left;*/
+	float: left;
+	display: block;
+	text-align: left;
+	width: 200 px;
+	padding: 20px;
+	margin: 10px;
+	border-width: 2px black solid;
+}
+p {
+	max-width: 180px;
+}
+
+#a1 {
+clear:left;
+background-color: #222222
+}
+
+#a2 {
+/*float: right;*/
+background-color: #cccccc
+}
+
+.clearfixafter {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}

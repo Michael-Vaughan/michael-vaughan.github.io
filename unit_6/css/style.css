@@ -1,0 +1,91 @@
+#wrapper {
+    background-color: grey;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+body {
+    box-sizing: border-box
+}
+
+header {
+    background-color: #FFED74;
+    border: 2px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    border: 2px black solid;
+    padding: 20px;
+}
+
+nav a {
+    padding-right: 2em;
+    padding: 1em;
+    background-color: #FFDE99;
+}
+
+nav a:hover {
+    background-color: white;
+
+}
+
+/*slogan and st001 are ID's of article*/
+
+#catalog_wrapper {
+    clear: both;
+    border: 2px black solid;
+    background-color: #DDDDDD
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+#pic {
+    width: 100%;
+    height: auto;
+}
+
+#cat_pic {
+    float: left;
+    display: block;
+    background-color: #FFDE99;
+    border: 2px black solid;
+    padding: 20px;
+    width: 42%;
+    margin: 1em;
+    line-height: 100%;
+}
+
+#description {
+    float: right;
+    padding: 20px;
+    border: 2px solid black;
+    width: 42%;
+    background-color: #AAAAAA;
+    margin: 1em;
+}
+#slogan {
+    background-color: #EEEEEE;
+    border: 2px black solid;
+    padding: 20px;
+}
+#mailing-list {
+    background-color: #FFC675;
+    border: 2px black solid;
+    padding: 20px;
+    clear: both;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 2px black solid;
+    padding: 20px;
+    clear: both;
+}
