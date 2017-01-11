@@ -1,0 +1,160 @@
+
+
+#wrapper {
+    /*background-color: grey;*/
+    /*border: 1px black solid;*/
+    /*padding: 20px;*/
+    /*margin: auto;*/
+    /*background-color: green;*/
+    font-family: helvetica;
+   /* width: 100%;
+    margin: auto;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;*/
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: white;
+    padding: 13px;
+}
+
+h2 {
+    font-family: inherit;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+body {
+    box-sizing: border-box
+}
+
+header {
+    /*background-color: #FFED74;*/
+    background: url("../images/miners.jpg");
+    background-attachment: fixed;
+    /*border: 2px black solid;*/
+    padding: 5px;
+    border-bottom: 2px white solid;
+    font: inherit;
+}
+
+nav {
+    /*background-color: rgba(255,144,189, .6);*/
+    border-top: 10px white solid;
+    border-bottom: 11px white solid;
+    text-align: center;
+    text-transform: lowercase;
+   /* background: url("../images/miners.jpg");
+    background-attachment: fixed;
+    background-color: rgba(220,40,10,.5)*/
+}
+
+nav a {
+    /*align-items: center;*/
+    /*padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;*/
+    padding: 9px 3.2em 9px 3.2em;
+    font-size: 2em;
+    /*margin: auto;*/
+    width: 50%;
+    color: black;
+    text-decoration: none;
+    /*padding: 1em;*/
+    /*background-color: #FFDE99;*/
+}
+
+nav a:hover {
+    background-color: rgba(240,20,12,.15);
+
+}
+
+/*slogan and st001 are ID's of article*/
+
+#catalog_wrapper {
+    color: black;
+    clear: both;
+    /*border: 2px black solid;*/
+    color: black;
+    background: url("../images/miners.jpg");
+    background-attachment: fixed;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+#pic {
+    width: 100%;
+    height: auto;
+    /*height: 30em;*/
+}
+
+#cat_pic {
+    float: left;
+    display: block;
+    /*background-color: #FFDE99;*/
+   /* border: 2px black solid;*/
+    padding: 20px;
+   /* width: 42%;*/
+   /* height: 5%;*/
+  /*  margin: 1em;*/
+    line-height: 50%;
+}
+
+
+#description {
+    float: right;
+    padding: 20px;
+   /* border: 2px solid black;*/
+    width: 42%;
+    background-color: rgba(255,255,255,.8);
+    margin: 1em;
+    max-width: 100%;
+}
+
+/*Additional feature where stuff strts to turn pink when u hover*/
+#description:hover {
+   /* background-color: rgba(240,20,12,.25);*/
+}
+
+#slogan {
+    /*background-color: #EEEEEE;*/
+    border: 2px black solid;
+    padding: 20px;
+}
+#mailing-list {
+    /*background-color: #FFC675;*/
+    border: 2px black solid;
+    padding: 20px;
+    clear: both;
+}
+
+footer {
+    /*background-color: #FF957E;*/
+    border: 2px black solid;
+    padding: 20px;
+    clear: both;
+}
+@media only screen and (max-width: 1140px){
+    nav a {
+        font-size: 1.5em;
+    }
+    @media only screen and (max-width: 813px){
+        nav a {
+            display: block;
+        }
+
+        #catpic {
+            float: none;
+        /*    display: block;*/
+            margin: auto;

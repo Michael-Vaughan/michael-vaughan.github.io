@@ -1,0 +1,199 @@
+
+
+#wrapper {
+    /*background-color: grey;*/
+    /*border: 1px black solid;*/
+    /*padding: 20px;*/
+    /*margin: auto;*/
+    /*background-color: green;*/
+    font-family: helvetica;
+   /* width: 100%;
+    margin: auto;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;*/
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: underline;
+    /*padding: 13px;*/
+}
+
+h2 {
+    font-family: inherit;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+body {
+    box-sizing: border-box
+}
+
+header {
+    /*background-color: #FFED74;*/
+    background: url("../images/miners.jpg");
+    background-attachment: fixed;
+    /*border: 2px black solid;*/
+    padding: 1em;
+    font: inherit;
+}
+
+nav {
+    /*background-color: rgba(255,144,189, .6);*/
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    text-align: center;
+    text-transform: lowercase;
+    background: url("../images/cardboard.jpg");
+    background-attachment: fixed;
+}
+
+nav a {
+    /*align-items: center;*/
+    /*padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;*/
+    padding: .25em 3em .25em 3em;
+    font-size: 2em;
+    font-weight: bold;
+    /*margin: auto;*/
+    /*width: 50%;*/
+    color: black;
+    text-decoration: none;
+    /*padding: 1em;*/
+    /*background-color: #FFDE99;*/
+}
+
+nav a:hover {
+    background-color: rgba(240,20,12,.15);
+
+}
+
+/*slogan and st001 are ID's of article*/
+
+#catalog_wrapper {
+    color: black;
+    clear: both;
+    /*border: 2px black solid;*/
+    color: black;
+    background: url("../images/miners.jpg");
+    background-attachment: fixed;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+#pic {
+    width: 100%;
+    height: auto;
+    /*height: 30em;*/
+}
+
+#cat_pic {
+    float: left;
+    display: block;
+    /*background-color: #FFDE99;*/
+   /* border: 2px black solid;*/
+    padding: 2em;
+    width: 42%;
+   /* height: 5%;*/
+  /*  margin: 1em;*/
+    line-height: 50%;
+    max-width: 480px;
+}
+
+
+#description {
+    float: right;
+    padding: 2em;
+   /* border: 2px solid black;*/
+    width: 42%;
+    background-color: rgba(255,255,255,.8);
+    margin: 2em;
+    max-width: 100%;
+}
+
+/*Additional feature where stuff strts to turn pink when u hover*/
+#description:hover {
+   /* background-color: rgba(240,20,12,.25);*/
+}
+
+#bottom {
+    background: url("../images/cardboard.jpg");
+    background-attachment: fixed;
+}
+
+#slogan {
+    /*background-color: #EEEEEE;*/
+    /*border: 2px black solid;*/
+    padding: 2em;
+}
+#mailing-list {
+    /*background-color: #FFC675;*/
+    /*border: 2px black solid;*/
+    padding: 2em;
+    clear: both;
+}
+
+footer {
+    /*background-color: #FF957E;*/
+    /*border: 2px black solid;*/
+    padding: 2em;
+    clear: both;
+}
+
+@media only screen and (max-width: 1140px){
+    nav a {
+        font-size: 1.5em;
+    }
+    @media only screen and (max-width: 998px) {
+        #cat_pic {
+            float: none;
+            width: 60%;
+            margin: auto;
+            text-align: center;
+        }
+        #description {
+            background-color: rgba(1,1,1,.8)
+            color: white;
+            float: none;
+            clear: both;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            /*margin-bottom: 2em;*/
+        }
+        #bottom {
+            text-align: center;
+            color: white;
+        }
+        #empty {
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+    }
+    @media only screen and (max-width: 823px){
+        nav a {
+            display: block;
+            border-bottom: 2px white solid;
+            border-width: 80%;
+        }
+    }
+    /*.navhalf1 {
+        border: 2px black solid;
+        float: left;
+    }
+    .navhalf2 {
+        border: 2px black solid;
+        float: right;
+    }*/
