@@ -7,6 +7,8 @@
     /*margin: auto;*/
     /*background-color: green;*/
     font-family: helvetica;
+    min-height: 100%;
+    margin: 0;
    /* width: 100%;
     margin: auto;
     border: 0px;
@@ -17,20 +19,29 @@
 
 h1 {
     text-align: center;
-    font-size: 3em;
-    text-transform: uppercase;
+    font-size: 4em;
+    text-transform: lowercase;
+    font-weight: bolder;
+    letter-spacing: .1em;
     color: white;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    text-shadow: 2px 2px 4px #000000
     /*padding: 13px;*/
 }
 
 h2 {
     font-family: inherit;
+    /*text-decoration: underline;*/
     font-weight: bold;
+    font-size: 1.5em;
     padding-bottom: 1em;
 }
+
 body {
-    box-sizing: border-box
+    box-sizing: border-box;
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
 }
 
 header {
@@ -61,9 +72,11 @@ nav a {
     padding: .25em 3em .25em 3em;
     font-size: 2em;
     font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 3px black;
     /*margin: auto;*/
     /*width: 50%;*/
-    color: black;
+    /*color: black;*/
     text-decoration: none;
     /*padding: 1em;*/
     /*background-color: #FFDE99;*/
@@ -77,7 +90,7 @@ nav a:hover {
 /*slogan and st001 are ID's of article*/
 
 #catalog_wrapper {
-    color: black;
+    color: white;
     clear: both;
     /*border: 2px black solid;*/
     color: black;
@@ -131,6 +144,17 @@ nav a:hover {
 #bottom {
     background: url("../images/cardboard.jpg");
     background-attachment: fixed;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    letter-spacing: .05em;
+    text-shadow: 2px 2px 3px black;
+}
+
+a {
+    text-decoration: none;
+    color: #FF5899;
 }
 
 #slogan {
