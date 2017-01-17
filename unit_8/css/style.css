@@ -61,6 +61,7 @@ nav {
     text-transform: lowercase;
     background: url("../images/cardboard.jpg");
     background-attachment: fixed;
+    /*border-bottom: 2px white solid;*/
 }
 
 nav a {
@@ -125,6 +126,34 @@ nav a:hover {
     max-width: 480px;
 }
 
+.artist_pic {
+    float: left;
+    display: block;
+    padding: 1em;
+    /*width: 20%;*/
+    /*border: 2px white solid;*/
+    margin-left: .3em;
+    margin-right: .3em;
+    display: inline;
+}
+
+.artist_pic:hover {
+    border: 2px pink solid;
+    padding
+}
+
+.artist_name {
+    /*float: left;
+    clear: left;*/
+   /* display: block;*/
+    padding: 1em;
+    /*width: 20%;*/
+    /*border: 2px white solid;*/
+    margin-left: .5em;
+    margin-right: .5em;
+    display: inline-text;
+}
+
 
 #description {
     float: right;
@@ -143,19 +172,27 @@ nav a:hover {
 
 #bottom {
     background: url("../images/cardboard.jpg");
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     text-align: center;
     height: 100vh;
     width: 100vw;
     color: white;
     letter-spacing: .05em;
     text-shadow: 2px 2px 3px black;
+    min-height: 300px;
+    max-height: 500px;
 }
 
 a {
     text-decoration: none;
     color: #FF5899;
 }
+
+/*.socials {
+    background-color: rgba(5,5,5,.6)
+    border: 2px white solid;
+    display: inline-block;
+}*/
 
 #slogan {
     /*background-color: #EEEEEE;*/
@@ -167,6 +204,12 @@ a {
     /*border: 2px black solid;*/
     padding: 2em;
     clear: both;
+    border: 2px black solid;
+    width: 25%;
+    color: white;
+    text-align: center;
+    display: inline-block;
+   /* background-color: rgba(5,5,5,.6)*/
 }
 
 footer {
@@ -174,7 +217,15 @@ footer {
     /*border: 2px black solid;*/
     padding: 2em;
     clear: both;
+    text-align: center;
+    min-height: 10%;
+    background: url("../images/miners.jpg");
+    background-position: bottom;
+    color: white;
+    letter-spacing: .05em;
+    text-shadow: 2px 2px 3px black;
 }
+
 
 @media only screen and (max-width: 1140px){
     nav a {
