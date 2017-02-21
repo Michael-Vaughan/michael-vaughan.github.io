@@ -7,24 +7,32 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
+	<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 		<div id="wrapper">	
 			<header>
 			<!-- <a href="index.html">  -->
-			<img id="logo" src="./images/supertuff_logo.jpg">
+				<img id="logo" src="./images/supertuff_logo.jpg">
 				<h1>Super Tuff Records</h1>
 			</header>
 			<nav>
 					<a href="index.html">Home</a>
 					<a href="who.html">who?</a>
 					<a href="gigs.html">gigs</a>
-					<a href="listen.html">Listen</a>
 					<a href="contact.html">Contact</a>
 			</nav>
 			<div id="catalog_wrapper">
 				<div class="clearfix">
 					<div id="cat_pic">
 						<!-- <h2>Super Tuff 001</h2> -->
-						<img id="pic" src="images/whitelabel2.jpg" alt= "Picture of Super Tuff Text logo" title= "Super Tuff Logo">
+						<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/287440514%3Fsecret_token%3Ds-YglFX&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
+						</iframe>
 					</div>
 					<div id="description">
 						<h2>MOST RECENT RECORD</h2>
@@ -36,6 +44,7 @@
 		</div>
 			<footer>
 				<h5>Social Media Links</h5>
+					<div class="fb-follow" data-href="https://www.facebook.com/zuck" data-width="20" data-height="50" data-layout="button" data-size="small" data-show-faces="false"></div>
 					<a class="socials" href="http://www.facebook.com/supertuffrecords">Facebook</a>
 					<a class="socials" href="http://www.soundcloud.com/supertuffrecords">Soundcloud</a>
 			</footer>
